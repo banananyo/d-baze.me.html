@@ -431,6 +431,7 @@ section
 	padding-right: 15px;
 	padding-bottom: 20px;
 	overflow: hidden;
+	display: none; /* baze edited */
 }
 .general_info_content_inner
 {

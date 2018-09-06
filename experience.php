@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>Education</title>
+<title>Eperience</title>
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="description" content="vCard template project">
@@ -9,8 +9,8 @@
 <link rel="stylesheet" type="text/css" href="styles/bootstrap-4.1.2/bootstrap.min.css">
 <link href="plugins/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="plugins/mCustomScrollbar/jquery.mCustomScrollbar.css">
-<link rel="stylesheet" type="text/css" href="styles/education.css">
-<link rel="stylesheet" type="text/css" href="styles/education_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/experience.css">
+<link rel="stylesheet" type="text/css" href="styles/experience_responsive.css">
 </head>
 <body>
 
@@ -18,45 +18,7 @@
 	
 	<!-- Header -->
 
-	<header class="header">
-		<div class="header_content d-flex flex-row align-items-center justify-content-start">
-			<div class="logo">Smith<span>.</span>CV</div>
-			<div class="main_nav d-flex flex-row align-items-end justify-content-start">
-				<ul class="d-flex flex-row align-items-center justify-content-start">
-					<li><a href="index.html">About</a></li>
-					<li><a href="skills.html">Skills</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="experience.html">Experience</a></li>
-					<li class="active"><a href="education.html">Education</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="testimonials.html">Testimonials</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-				<div class="header_button ml-auto">
-					<a href="#">Available for freelance work</a>
-					<div class="d-flex flex-column align-items-center justify-content-center"><img src="images/download.png" alt=""></div>
-				</div>
-			</div>
-			<!-- Menu -->
-	<div class="menu">
-		<div class="menu_content d-flex flex-row align-items-start justify-content-end">
-			<div class="hamburger ml-auto">menu</div>
-			<div class="menu_nav text-right">
-				<ul>
-					<li><a href="index.html">About</a></li>
-					<li><a href="skills.html">Skills</a></li>
-					<li><a href="services.html">Services</a></li>
-					<li><a href="experience.html">Experience</a></li>
-					<li><a href="education.html">Education</a></li>
-					<li><a href="portfolio.html">Portfolio</a></li>
-					<li><a href="testimonials.html">Testimonials</a></li>
-					<li><a href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</div>
-	</div>
-		</div>
-	</header>
+	<?php include('inc/header.php'); ?>
 
 	<div class="content_container">
 		<div class="main_content_outer d-flex flex-xl-row flex-column align-items-start justify-content-start">
@@ -120,55 +82,80 @@
 			<div class="main_content">
 				<div class="main_title_container d-flex flex-column align-items-start justify-content-end">
 					<div class="main_subtitle">What I am good at</div>
-					<div class="main_title">My Education</div>
+					<div class="main_title">My Experience</div>
 				</div>
 				<div class="main_content_scroll mCustomScrollbar" data-mcs-theme="minimal-dark">
 					
-					<!-- Education -->
+					<!-- Experience -->
 
-					<div class="education">
+					<div class="experience">
 						
-						<!-- Education Item -->
-						<div class="edu_item d-flex flex-lg-row flex-column align-items-start justfy-content-start">
-							<div><div class="edu_year">2010</div></div>
-							<div><div class="edu_image"><img src="images/edu_1.png" alt=""></div></div>
-							<div class="edu_content">
-								<div class="edu_title_container">
-									<div class="edu_title">University of Colorado</div>
-									<div class="edu_subtitle">Developer Diploma PhD</div>
+						<!-- Experience Item -->
+						<div class="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
+							<div><div class="exp_time">2016-Present</div></div>
+							<div class="exp_content">
+								<div class="exp_title_container">
+									<div class="exp_title">Senior Developer</div>
+									<div class="exp_subtitle">Company INC</div>
 								</div>
-								<div class="edu_text">
+								<div class="exp_text">
 									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit ame. Proin vitae tortor nec risus tristique efficitur. Aliquam luctus est urna, id aliquam orci tempus sed. Aenean sit amet leo id enim dapibus eleifend. Phasellus ut erat dapibus, tempor sapien non, porta urna.</p>
 								</div>
 							</div>
 						</div>
 
-						<!-- Education Item -->
-						<div class="edu_item d-flex flex-lg-row flex-column align-items-start justfy-content-start">
-							<div><div class="edu_year">2008</div></div>
-							<div><div class="edu_image"><img src="images/edu_2.png" alt=""></div></div>
-							<div class="edu_content">
-								<div class="edu_title_container">
-									<div class="edu_title">Graphic School</div>
-									<div class="edu_subtitle">Graphic Design Course</div>
+						<!-- Experience Item -->
+						<div class="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
+							<div><div class="exp_time">2014-2016</div></div>
+							<div class="exp_content">
+								<div class="exp_title_container">
+									<div class="exp_title">Junior Developer</div>
+									<div class="exp_subtitle">Company INC</div>
 								</div>
-								<div class="edu_text">
+								<div class="exp_text">
 									<p>Ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit ame. Proin vitae tortor nec risus tristique efficitur. Aliquam luctus est urna, id aliquam orci tempus sed. Aenean sit amet leo id enim dapibus eleifend. Phasellus ut erat dapibus, tempor sapien non, porta urna.</p>
 								</div>
 							</div>
 						</div>
 
-						<!-- Education Item -->
-						<div class="edu_item d-flex flex-lg-row flex-column align-items-start justfy-content-start">
-							<div><div class="edu_year">2007</div></div>
-							<div><div class="edu_image"><img src="images/edu_3.png" alt=""></div></div>
-							<div class="edu_content">
-								<div class="edu_title_container">
-									<div class="edu_title">Colorado High School</div>
-									<div class="edu_subtitle">Bachelor Degree - Developer</div>
+						<!-- Experience Item -->
+						<div class="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
+							<div><div class="exp_time">2012-2014</div></div>
+							<div class="exp_content">
+								<div class="exp_title_container">
+									<div class="exp_title">Entry Level Developer</div>
+									<div class="exp_subtitle">Company INC</div>
 								</div>
-								<div class="edu_text">
+								<div class="exp_text">
 									<p>Consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit ame. Proin vitae tortor nec risus tristique efficitur. Aliquam luctus est urna, id aliquam orci tempus sed. Aenean sit amet leo id enim dapibus eleifend. Phasellus ut erat dapibus, tempor sapien non, porta urna.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Experience Item -->
+						<div class="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
+							<div><div class="exp_time">2011-2012</div></div>
+							<div class="exp_content">
+								<div class="exp_title_container">
+									<div class="exp_title">Entry Level Developer</div>
+									<div class="exp_subtitle">Company INC</div>
+								</div>
+								<div class="exp_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit ame. Proin vitae tortor nec risus tristique efficitur. Aliquam luctus est urna, id aliquam orci tempus sed. Aenean sit amet leo id enim dapibus eleifend. Phasellus ut erat dapibus, tempor sapien non, porta urna.</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- Experience Item -->
+						<div class="exp_item d-flex flex-md-row flex-column align-items-start justify-content-start">
+							<div><div class="exp_time">2010-2011</div></div>
+							<div class="exp_content">
+								<div class="exp_title_container">
+									<div class="exp_title">Entry Level Developer</div>
+									<div class="exp_subtitle">Company INC</div>
+								</div>
+								<div class="exp_text">
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus vitae sapien porttitor, dignissim quam sit ame. Proin vitae tortor nec risus tristique efficitur. Aliquam luctus est urna, id aliquam orci tempus sed. Aenean sit amet leo id enim dapibus eleifend. Phasellus ut erat dapibus, tempor sapien non, porta urna.</p>
 								</div>
 							</div>
 						</div>
@@ -178,11 +165,7 @@
 				</div>
 			</div>
 		</div>
-<div align='center'>
-	<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></div>
-		
+		<?php include('inc/copyright.php'); ?>
 	</div>
 </div>
 
@@ -192,6 +175,6 @@ Copyright &copy;<script>document.write(new Date().getFullYear());</script> All r
 <script src="plugins/mCustomScrollbar/jquery.mCustomScrollbar.js"></script>
 <script src="plugins/easing/easing.js"></script>
 <script src="plugins/parallax-js-master/parallax.min.js"></script>
-<script src="js/education.js"></script>
+<script src="js/experience.js"></script>
 </body>
 </html>
