@@ -9,13 +9,13 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/styles.css" />
     
-    <title>D-baze.me | hellox</title>
+    <title>D-baze.me</title>
   </head>
   <body>
     <div class="container">
       <div class="f-center v welcome-container">
         <div class="f-center v inner-container">
-          <!-- <h1>Welcome to</h1> -->
+          <h1>Welcome to</h1>
           <Avatar>
             <?php 
               $images = (object) array(
@@ -24,7 +24,7 @@
             ?>
             <img src="<?php echo $images->me; ?>/prof1.jpg" alt="">
           </Avatar>
-          <!-- <h1>D-baze.me</h1> -->
+          <h1>D-baze.me</h1>
         </div>
       </div>
     </div>
