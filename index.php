@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/styles.css" />
     
-    <title>D-baze.me | hellox</title>
+    <title>D-baze.me</title>
   </head>
   <body>
     <div class="container">
