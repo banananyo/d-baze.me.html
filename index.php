@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/styles.css" />
     
-    <title>D-baze.me</title>
+    <title>D-baze.me | test</title>
   </head>
   <body>
     <div class="container">
