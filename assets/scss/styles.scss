@@ -1,0 +1,43 @@
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$shadow-color: #888;
+$bg-color: #fcfcfc;
+$b-shadow: 1px 1px 10px 0px $shadow-color;
+$b-rad: 8px;
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $bg-color;
+}
+
+.welcome-container {
+    margin: auto;
+    height: 100vh;
+    .inner-container {
+        background-color: white;
+        padding: 25px;
+        box-shadow: $b-shadow;
+        border-radius: $b-rad;
+    }
+}
+
+.f-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &.v {  
+        flex-direction: column;
+    }
+}
+
+
+avatar {
+    object-fit: cover;
+    object-position: center;
+    border-radius: $b-rad;
+    width: 360px;
+    height: 360px;
+    border: 1px solid #999;
+    box-shadow: 0 0 1px 1px #ddd;
+}    
