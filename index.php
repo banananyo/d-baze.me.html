@@ -1,7 +1,6 @@
-<!doctype html>
+<!-- <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
@@ -17,11 +16,11 @@
         <div class="f-center v inner-container">
           <h1>Welcome to</h1>
           <?php 
-            $images = (object) array(
-              'me' => 'assets/images/me',
-            );
+            // $images = (object) array(
+            //   'me' => 'assets/images/me',
+            // );
           ?>
-          <avatar class="avatar" src="<?php echo $images->me; ?>/prof1.jpg"></avatar>
+          <avatar class="avatar" src="<?php //echo $images->me; ?>/prof1.jpg"></avatar>
           
           <div >
             <h1 v-bind:html="message"></h1>
@@ -47,7 +46,10 @@
     //   }
     // }
   </script>
-  <?php
+  
+</html> -->
+
+<?php
     // 7nkfWd9qzEvV9SSm0ztW4WR2MkDznORm1sqXd9nEcfh9hvmtna8KqmQMbiu1E0ByXPhhYEbLHIzq4ZMDoJvOR0vaU8qEgzFmc6r/BJTJRpn8RnVs55Bb/BE6xGZ+NPwG890CYihV4Sz3NFPaUosf0wdB04t89/1O/w1cDnyilFU=
     $accessToken = "7nkfWd9qzEvV9SSm0ztW4WR2MkDznORm1sqXd9nEcfh9hvmtna8KqmQMbiu1E0ByXPhhYEbLHIzq4ZMDoJvOR0vaU8qEgzFmc6r/BJTJRpn8RnVs55Bb/BE6xGZ+NPwG890CYihV4Sz3NFPaUosf0wdB04t89/1O/w1cDnyilFU=";//copy Channel access token ตอนที่ตั้งค่ามาใส่
     
@@ -119,4 +121,3 @@ function replyMsg($arrayHeader,$arrayPostData){
     }
    exit;
 ?>
-</html>
