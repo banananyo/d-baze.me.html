@@ -1,3 +1,4 @@
+<script>console.log('loaded')</script>
 <?php
     // 7nkfWd9qzEvV9SSm0ztW4WR2MkDznORm1sqXd9nEcfh9hvmtna8KqmQMbiu1E0ByXPhhYEbLHIzq4ZMDoJvOR0vaU8qEgzFmc6r/BJTJRpn8RnVs55Bb/BE6xGZ+NPwG890CYihV4Sz3NFPaUosf0wdB04t89/1O/w1cDnyilFU=
     $accessToken = "7nkfWd9qzEvV9SSm0ztW4WR2MkDznORm1sqXd9nEcfh9hvmtna8KqmQMbiu1E0ByXPhhYEbLHIzq4ZMDoJvOR0vaU8qEgzFmc6r/BJTJRpn8RnVs55Bb/BE6xGZ+NPwG890CYihV4Sz3NFPaUosf0wdB04t89/1O/w1cDnyilFU=";//copy Channel access token ตอนที่ตั้งค่ามาใส่
